@@ -1,68 +1,37 @@
+/* Page Background */
 body {
-    font-family: Arial, sans-serif;
-    max-width: 80%;
-    margin: auto;
     background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #6b8e23;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    background-color: #6b8e23 !important;
 }
 
-/* Horizontal Navigation */
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #556b2f;
+/* Navigation */
+.navbar {
+    background-color: #556b2f !important;
 }
 
-nav li {
-    float: left;
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
 }
 
-nav li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-}
-
-nav li a:hover {
-    background-color: #808000;
-}
-
-/* Two Columns */
-main {
-    float: left;
-    width: 65%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: white;
-}
-
-aside {
-    float: right;
-    width: 35%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #e8e8d0;
-}
-
+/* Footer */
 footer {
-    clear: both;
-    background-color: #6b8e23;
-    color: white;
-    text-align: center;
-    padding: 15px;
+    background-color: #6b8e23 !important;
 }
 
+/* Images */
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Main Content Area */
+main {
+    min-height: 400px;
 }
