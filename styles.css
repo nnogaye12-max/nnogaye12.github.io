@@ -1,37 +1,67 @@
-/* Page Background */
+
 body {
     background-color: #f5f5dc;
     font-family: Arial, sans-serif;
 }
 
-/* Header */
+
 header {
     background-color: #6b8e23 !important;
 }
 
-/* Navigation */
+header h1 {
+    margin-bottom: 10px;
+}
+
+
 .navbar {
     background-color: #556b2f !important;
 }
 
-/* Card Styling */
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important;
+}
+
+
+main {
+    min-height: 400px;
+}
+
 .card {
     border: none;
     border-radius: 10px;
 }
 
-/* Footer */
-footer {
-    background-color: #6b8e23 !important;
+.card-body {
+    background-color: #ffffff;
 }
 
-/* Images */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Main Content Area */
-main {
-    min-height: 400px;
+footer {
+    background-color: #6b8e23 !important;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
 }
